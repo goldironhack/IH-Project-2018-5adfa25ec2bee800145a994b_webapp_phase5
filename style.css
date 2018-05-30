@@ -7,3 +7,80 @@ body {
     width: 100%;
     max-width: 960px;
 }
+
+#googleMapConteiner{
+    align-content: center;
+    width: 100%;
+    height: 500px;
+}
+
+/* .loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db; 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+} */
+
+#tableOfAllInfo {
+    height: 500px; 
+    overflow: auto;
+    text-align: center;
+    
+}
+
+/* #tableOfAllInfo thead{
+    display: block;
+} */
+
+#tableOfAllInfo tr:hover, #tableOfAllInfo th{
+    border: 1px solid #CCC;
+    text-align: center;
+}
+
+/* .fixed-header{
+    height: 500px; 
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.fixed-header thead tr {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.fixed-header tbody {
+    display: block;
+    overflow: auto;
+    position: relative;
+    border-collapse: collapse;
+    width:  100%;
+    height: 400px;
+} */
+
+/* #tableOfAllInfo, #clasificationTable thead {display: block; position: relative;}
+
+#clasificationTable tbody{
+    width: 200px;
+    height: 400px;    
+    overflow: auto;
+} */
+
+.chart div {
+    font: 10px sans-serif;
+    background-color: steelblue;
+    text-align: right;
+    padding: 3px;
+    margin: 1px;
+    color: white;
+}
+
+/* .table td, th {
+    padding: 1px 4px;
+} */
